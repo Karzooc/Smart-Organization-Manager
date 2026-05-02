@@ -1,62 +1,592 @@
 [
   {
     "Id": 1,
-    "Title": "Manage projects",
+    "Title": "System architecture design",
     "Status": 2,
     "AssignedEmployee": {
-      "Id": 225110385,
-      "Name": "Yousef Reda",
-      "Salary": 100
+      "Id": 225110293,
+      "Name": "Kariem Tamer",
+      "Salary": 8050
     }
   },
   {
     "Id": 2,
-    "Title": "GUI and link logic with GUI",
+    "Title": "Login UI implementation",
     "Status": 1,
     "AssignedEmployee": {
-      "Id": 225110293,
-      "Name": "Kariem Tamer",
-      "Salary": 100
+      "Id": 225110365,
+      "Name": "Zeyad Mohammed",
+      "Salary": 8600
     }
   },
   {
     "Id": 3,
-    "Title": " File Handling Module ",
+    "Title": "Database connection setup",
     "Status": 0,
     "AssignedEmployee": {
-      "Id": 225110365,
-      "Name": "Zeyad Mohammed",
-      "Salary": 100
+      "Id": 225110385,
+      "Name": "Yousef Reda",
+      "Salary": 9060
     }
   },
   {
     "Id": 4,
-    "Title": "Employee Module ",
+    "Title": "Employee CRUD module",
     "Status": 2,
     "AssignedEmployee": {
       "Id": 225112095,
       "Name": "Basmalla Akram",
-      "Salary": 100
+      "Salary": 9280
     }
   },
   {
     "Id": 5,
-    "Title": "Task Module",
-    "Status": 0,
+    "Title": "Task management system",
+    "Status": 1,
     "AssignedEmployee": {
-      "Id": 225111410,
-      "Name": "Samir Mohammed",
-      "Salary": 100
+      "Id": 225104085,
+      "Name": "Lujin Mohammed",
+      "Salary": 9990
     }
   },
   {
     "Id": 6,
-    "Title": "Logic \u002B OOP \u002B Testing ",
+    "Title": "OOP refactoring",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225111410,
+      "Name": "Samir Mohammed",
+      "Salary": 10
+    }
+  },
+  {
+    "Id": 7,
+    "Title": "File system handler",
     "Status": 2,
     "AssignedEmployee": {
-      "Id": 225104085,
-      "Name": "Lujin Mohammed",
-      "Salary": 100
+      "Id": 225112096,
+      "Name": "Ahmed Tarek",
+      "Salary": 3500
+    }
+  },
+  {
+    "Id": 8,
+    "Title": "API integration layer",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112097,
+      "Name": "Mohamed Adel",
+      "Salary": 4200
+    }
+  },
+  {
+    "Id": 9,
+    "Title": "Bug fixing module",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112098,
+      "Name": "Omar Hesham",
+      "Salary": 5000
+    }
+  },
+  {
+    "Id": 10,
+    "Title": "Reporting dashboard",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112099,
+      "Name": "Youssef Samy",
+      "Salary": 6000
+    }
+  },
+  {
+    "Id": 11,
+    "Title": "Authentication service",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112100,
+      "Name": "Kareem Magdy",
+      "Salary": 4500
+    }
+  },
+  {
+    "Id": 12,
+    "Title": "Performance optimization",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112101,
+      "Name": "Mahmoud Ayman",
+      "Salary": 7000
+    }
+  },
+  {
+    "Id": 13,
+    "Title": "Unit testing setup",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112102,
+      "Name": "Mostafa Nasser",
+      "Salary": 5200
+    }
+  },
+  {
+    "Id": 14,
+    "Title": "UI bug fixes",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112103,
+      "Name": "Ali Farouk",
+      "Salary": 4800
+    }
+  },
+  {
+    "Id": 15,
+    "Title": "Notification system",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112104,
+      "Name": "Hossam Ibrahim",
+      "Salary": 5500
+    }
+  },
+  {
+    "Id": 16,
+    "Title": "Logging system upgrade",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112105,
+      "Name": "Islam Saeed",
+      "Salary": 4000
+    }
+  },
+  {
+    "Id": 17,
+    "Title": "Database indexing",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112106,
+      "Name": "Abdullah Gamal",
+      "Salary": 6500
+    }
+  },
+  {
+    "Id": 18,
+    "Title": "Security patch update",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112107,
+      "Name": "Tamer Fawzy",
+      "Salary": 5300
+    }
+  },
+  {
+    "Id": 19,
+    "Title": "Role management system",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112108,
+      "Name": "Walid Hassan",
+      "Salary": 7200
+    }
+  },
+  {
+    "Id": 20,
+    "Title": "Search functionality",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112109,
+      "Name": "Sameh Khaled",
+      "Salary": 4600
+    }
+  },
+  {
+    "Id": 21,
+    "Title": "Frontend redesign",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112110,
+      "Name": "Sherif Reda",
+      "Salary": 5800
+    }
+  },
+  {
+    "Id": 22,
+    "Title": "Database migration",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112111,
+      "Name": "Fatma Ahmed",
+      "Salary": 5000
+    }
+  },
+  {
+    "Id": 23,
+    "Title": "Mobile responsiveness fix",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112112,
+      "Name": "Mariam Tarek",
+      "Salary": 6200
+    }
+  },
+  {
+    "Id": 24,
+    "Title": "Error handling system",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112113,
+      "Name": "Nour Adel",
+      "Salary": 4700
+    }
+  },
+  {
+    "Id": 25,
+    "Title": "Caching layer implementation",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112114,
+      "Name": "Salma Hany",
+      "Salary": 5100
+    }
+  },
+  {
+    "Id": 26,
+    "Title": "Session management",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112115,
+      "Name": "Aya Mahmoud",
+      "Salary": 4300
+    }
+  },
+  {
+    "Id": 27,
+    "Title": "Admin panel features",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112116,
+      "Name": "Heba Mostafa",
+      "Salary": 5600
+    }
+  },
+  {
+    "Id": 28,
+    "Title": "Email service integration",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112117,
+      "Name": "Sara Mohamed",
+      "Salary": 4900
+    }
+  },
+  {
+    "Id": 29,
+    "Title": "Analytics dashboard",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112118,
+      "Name": "Dina Ali",
+      "Salary": 5400
+    }
+  },
+  {
+    "Id": 30,
+    "Title": "Permission system",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112119,
+      "Name": "Rania Tamer",
+      "Salary": 6100
+    }
+  },
+  {
+    "Id": 31,
+    "Title": "API rate limiting",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112120,
+      "Name": "Laila Samy",
+      "Salary": 5200
+    }
+  },
+  {
+    "Id": 32,
+    "Title": "Code refactoring sprint",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112121,
+      "Name": "Zeyad Ashraf",
+      "Salary": 7500
+    }
+  },
+  {
+    "Id": 33,
+    "Title": "User profile module",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112122,
+      "Name": "Yara Hesham",
+      "Salary": 4800
+    }
+  },
+  {
+    "Id": 34,
+    "Title": "Order management system",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112123,
+      "Name": "Omar Adel",
+      "Salary": 6800
+    }
+  },
+  {
+    "Id": 35,
+    "Title": "Payment gateway integration",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112124,
+      "Name": "Ahmed Samir",
+      "Salary": 5900
+    }
+  },
+  {
+    "Id": 36,
+    "Title": "Email notification fixes",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112125,
+      "Name": "Mohamed Yasser",
+      "Salary": 8000
+    }
+  },
+  {
+    "Id": 37,
+    "Title": "System monitoring setup",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112126,
+      "Name": "Kareem Osama",
+      "Salary": 5700
+    }
+  },
+  {
+    "Id": 38,
+    "Title": "Backup system implementation",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112127,
+      "Name": "Mahmoud Sherif",
+      "Salary": 6400
+    }
+  },
+  {
+    "Id": 39,
+    "Title": "Data validation rules",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112128,
+      "Name": "Mostafa Ali",
+      "Salary": 5300
+    }
+  },
+  {
+    "Id": 40,
+    "Title": "UI animation improvements",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112129,
+      "Name": "Ali Zaki",
+      "Salary": 5100
+    }
+  },
+  {
+    "Id": 41,
+    "Title": "System cleanup scripts",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112130,
+      "Name": "Tamer Ibrahim",
+      "Salary": 6600
+    }
+  },
+  {
+    "Id": 42,
+    "Title": "User feedback system",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112131,
+      "Name": "Fatma Samir",
+      "Salary": 4500
+    }
+  },
+  {
+    "Id": 43,
+    "Title": "Notification scheduling",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112132,
+      "Name": "Mariam Nader",
+      "Salary": 5200
+    }
+  },
+  {
+    "Id": 44,
+    "Title": "Chat system integration",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112133,
+      "Name": "Nour Sherif",
+      "Salary": 6000
+    }
+  },
+  {
+    "Id": 45,
+    "Title": "Frontend optimization",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112134,
+      "Name": "Salma Khaled",
+      "Salary": 4800
+    }
+  },
+  {
+    "Id": 46,
+    "Title": "Backend API redesign",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112135,
+      "Name": "Aya Tarek",
+      "Salary": 5500
+    }
+  },
+  {
+    "Id": 47,
+    "Title": "Database backup automation",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112136,
+      "Name": "Heba Adel",
+      "Salary": 4700
+    }
+  },
+  {
+    "Id": 48,
+    "Title": "Security audit fixes",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112137,
+      "Name": "Sara Ayman",
+      "Salary": 5900
+    }
+  },
+  {
+    "Id": 49,
+    "Title": "Server deployment automation",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112138,
+      "Name": "Dina Hassan",
+      "Salary": 6100
+    }
+  },
+  {
+    "Id": 50,
+    "Title": "Logging improvements",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112139,
+      "Name": "Rania Mostafa",
+      "Salary": 5300
+    }
+  },
+  {
+    "Id": 51,
+    "Title": "UI performance tuning",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112140,
+      "Name": "Laila Ahmed",
+      "Salary": 5000
+    }
+  },
+  {
+    "Id": 52,
+    "Title": "Authentication flow fix",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112141,
+      "Name": "Zeyad Mohamed",
+      "Salary": 7200
+    }
+  },
+  {
+    "Id": 53,
+    "Title": "User onboarding flow",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112142,
+      "Name": "Youssef Adel",
+      "Salary": 6900
+    }
+  },
+  {
+    "Id": 54,
+    "Title": "System integration tests",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112143,
+      "Name": "Omar Tamer",
+      "Salary": 5600
+    }
+  },
+  {
+    "Id": 55,
+    "Title": "Report generation module",
+    "Status": 2,
+    "AssignedEmployee": {
+      "Id": 225112144,
+      "Name": "Ahmed Khaled",
+      "Salary": 7800
+    }
+  },
+  {
+    "Id": 56,
+    "Title": "Code cleanup and refactor",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225112145,
+      "Name": "Mohamed Farouk",
+      "Salary": 8400
+    }
+  },
+  {
+    "Id": 57,
+    "Title": "UI final polish",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225110293,
+      "Name": "Kariem Tamer",
+      "Salary": 8050
+    }
+  },
+  {
+    "Id": 59,
+    "Title": "System documentation",
+    "Status": 1,
+    "AssignedEmployee": {
+      "Id": 225110385,
+      "Name": "Yousef Reda",
+      "Salary": 9060
+    }
+  },
+  {
+    "Id": 60,
+    "Title": "Final integration testing",
+    "Status": 0,
+    "AssignedEmployee": {
+      "Id": 225112095,
+      "Name": "Basmalla Akram",
+      "Salary": 9280
     }
   }
 ]

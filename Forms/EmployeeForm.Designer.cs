@@ -240,6 +240,7 @@
             Controls.Add(panel2);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "EmployeeForm";
             StartPosition = FormStartPosition.CenterScreen;

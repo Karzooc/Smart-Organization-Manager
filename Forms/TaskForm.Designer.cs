@@ -226,6 +226,7 @@
             DoubleBuffered = true;
             Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "TaskForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TaskForm";

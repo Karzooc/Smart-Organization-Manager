@@ -290,6 +290,7 @@
             Controls.Add(panel7);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "DashboardForm";
             StartPosition = FormStartPosition.CenterScreen;

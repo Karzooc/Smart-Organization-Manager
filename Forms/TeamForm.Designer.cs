@@ -38,7 +38,10 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(499, 686);
-            MinimizeBox = false;
+            DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "TeamForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TeamForm";
