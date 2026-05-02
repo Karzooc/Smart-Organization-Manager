@@ -31,14 +31,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardForm));
             panel7 = new Panel();
+            button3 = new Button();
+            button2 = new Button();
             panel3 = new Panel();
-            label3 = new Label();
-            panel4 = new Panel();
             label6 = new Label();
-            panel2 = new Panel();
+            panel4 = new Panel();
             label5 = new Label();
-            panel1 = new Panel();
+            panel2 = new Panel();
             label4 = new Label();
+            panel1 = new Panel();
+            label3 = new Label();
             button1 = new Button();
             Projectsbtn = new Button();
             Tasksbtn = new Button();
@@ -54,6 +56,8 @@
             // 
             panel7.BackgroundImage = (Image)resources.GetObject("panel7.BackgroundImage");
             panel7.BackgroundImageLayout = ImageLayout.Stretch;
+            panel7.Controls.Add(button3);
+            panel7.Controls.Add(button2);
             panel7.Controls.Add(panel3);
             panel7.Controls.Add(panel4);
             panel7.Controls.Add(panel2);
@@ -69,6 +73,38 @@
             panel7.TabIndex = 2;
             panel7.Paint += panel7_Paint;
             // 
+            // button3
+            // 
+            button3.BackColor = Color.Transparent;
+            button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
+            button3.BackgroundImageLayout = ImageLayout.Stretch;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button3.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Location = new Point(958, 85);
+            button3.Name = "button3";
+            button3.Size = new Size(145, 29);
+            button3.TabIndex = 14;
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Transparent;
+            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
+            button2.BackgroundImageLayout = ImageLayout.Stretch;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button2.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Location = new Point(780, 85);
+            button2.Name = "button2";
+            button2.Size = new Size(145, 29);
+            button2.TabIndex = 13;
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // panel3
             // 
             panel3.BackColor = Color.Transparent;
@@ -79,30 +115,6 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(400, 200);
             panel3.TabIndex = 12;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Broadway", 39.75F, FontStyle.Bold);
-            label3.ForeColor = Color.WhiteSmoke;
-            label3.Location = new Point(199, 88);
-            label3.Name = "label3";
-            label3.Size = new Size(95, 60);
-            label3.TabIndex = 5;
-            label3.Text = "36";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // panel4
-            // 
-            panel4.BackColor = Color.Transparent;
-            panel4.BackgroundImage = (Image)resources.GetObject("panel4.BackgroundImage");
-            panel4.BackgroundImageLayout = ImageLayout.Stretch;
-            panel4.Controls.Add(label5);
-            panel4.Location = new Point(285, 380);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(400, 200);
-            panel4.TabIndex = 11;
             // 
             // label6
             // 
@@ -117,16 +129,16 @@
             label6.Text = "15";
             label6.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // panel2
+            // panel4
             // 
-            panel2.BackColor = Color.Transparent;
-            panel2.BackgroundImage = (Image)resources.GetObject("panel2.BackgroundImage");
-            panel2.BackgroundImageLayout = ImageLayout.Stretch;
-            panel2.Controls.Add(label4);
-            panel2.Location = new Point(715, 154);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(400, 200);
-            panel2.TabIndex = 10;
+            panel4.BackColor = Color.Transparent;
+            panel4.BackgroundImage = (Image)resources.GetObject("panel4.BackgroundImage");
+            panel4.BackgroundImageLayout = ImageLayout.Stretch;
+            panel4.Controls.Add(label5);
+            panel4.Location = new Point(285, 380);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(400, 200);
+            panel4.TabIndex = 11;
             // 
             // label5
             // 
@@ -141,16 +153,16 @@
             label5.Text = "70";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // panel1
+            // panel2
             // 
-            panel1.BackColor = Color.Transparent;
-            panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
-            panel1.BackgroundImageLayout = ImageLayout.Stretch;
-            panel1.Controls.Add(label3);
-            panel1.Location = new Point(285, 154);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(400, 200);
-            panel1.TabIndex = 9;
+            panel2.BackColor = Color.Transparent;
+            panel2.BackgroundImage = (Image)resources.GetObject("panel2.BackgroundImage");
+            panel2.BackgroundImageLayout = ImageLayout.Stretch;
+            panel2.Controls.Add(label4);
+            panel2.Location = new Point(715, 154);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(400, 200);
+            panel2.TabIndex = 10;
             // 
             // label4
             // 
@@ -165,6 +177,30 @@
             label4.Text = "25";
             label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Transparent;
+            panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
+            panel1.BackgroundImageLayout = ImageLayout.Stretch;
+            panel1.Controls.Add(label3);
+            panel1.Location = new Point(285, 154);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(400, 200);
+            panel1.TabIndex = 9;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Broadway", 39.75F, FontStyle.Bold);
+            label3.ForeColor = Color.WhiteSmoke;
+            label3.Location = new Point(199, 88);
+            label3.Name = "label3";
+            label3.Size = new Size(95, 60);
+            label3.TabIndex = 5;
+            label3.Text = "36";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // button1
             // 
             button1.BackColor = Color.Transparent;
@@ -177,11 +213,12 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Roboto", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.FromArgb(2, 18, 26);
-            button1.Location = new Point(19, 578);
+            button1.Location = new Point(19, 583);
             button1.Name = "button1";
             button1.Size = new Size(174, 54);
             button1.TabIndex = 7;
             button1.TabStop = false;
+            button1.Text = " ";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
@@ -192,6 +229,8 @@
             Projectsbtn.BackgroundImageLayout = ImageLayout.Stretch;
             Projectsbtn.Cursor = Cursors.Hand;
             Projectsbtn.FlatAppearance.BorderSize = 0;
+            Projectsbtn.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            Projectsbtn.FlatAppearance.MouseOverBackColor = Color.Transparent;
             Projectsbtn.FlatStyle = FlatStyle.Flat;
             Projectsbtn.Font = new Font("Roboto", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Projectsbtn.ForeColor = Color.FromArgb(2, 18, 26);
@@ -284,5 +323,8 @@
         private Panel panel4;
         private Panel panel2;
         private Panel panel1;
+        private Button button3;
+        private Button button2;
+        private Panel panel6;
     }
 }

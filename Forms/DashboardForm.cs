@@ -102,5 +102,23 @@ namespace ORG.Forms
         private void label12_Click(object sender, EventArgs e) { }
         private void panel16_Paint(object sender, PaintEventArgs e) { }
         private void panel7_Paint(object sender, PaintEventArgs e) { }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+            AboutForm about = new AboutForm();
+            about.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AboutForm about = new AboutForm();
+            about.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            TeamForm team = new TeamForm();
+            team.Show();
+        }
     }
 }

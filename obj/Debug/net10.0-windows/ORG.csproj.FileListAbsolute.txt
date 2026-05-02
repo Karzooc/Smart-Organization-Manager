@@ -20,3 +20,6 @@ C:\Users\TITO\source\repos\ORG\ORG\obj\Debug\net10.0-windows\ORG.genruntimeconfi
 C:\Users\TITO\source\repos\ORG\ORG\obj\Debug\net10.0-windows\ref\ORG.dll
 C:\Users\TITO\source\repos\ORG\ORG\obj\Debug\net10.0-windows\ORG.Properties.Resources.resources
 C:\Users\TITO\source\repos\ORG\ORG\obj\Debug\net10.0-windows\ORG.Forms.LoginForm.resources
+C:\Users\TITO\source\repos\ORG\ORG\obj\Debug\net10.0-windows\ORG.Forms.AboutForm.resources
+C:\Users\TITO\source\repos\ORG\ORG\obj\Debug\net10.0-windows\ORG.Forms.TeamForm.resources
+C:\Users\TITO\source\repos\ORG\ORG\obj\Debug\net10.0-windows\ORG.sourcelink.json
